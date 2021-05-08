@@ -1,4 +1,4 @@
-
+body {background-color: blue;}
 
 .container1-flex, .container2-flex{display:flex;}
 .item{margin:auto;}
