@@ -1,4 +1,30 @@
-body {background-color: blue;}
-
+body {background-color:#D3D3D3;
+margin:auto;
+width:960px;}
+nav{font-size:1rem; padding: 0.5rem; display:flex; justify-content:space-around;}
+#maincontent{background-color:#E6E6FA;
+			margin:auto;
+			width:844px;
+			height:600px;
+			box-shadow:0 0 15px 5px rgba(44,82,100,.75);}
 .container1-flex, .container2-flex{display:flex;}
-.item{margin:auto;}
+.item{flex:1 1 250px;
+	  margin:10px;
+	  border-radius:5px;
+	  padding:10px 10px 0 10px;
+	  background-color: rgba(0, 0, 0, .1);
+	  flex-flow: column;}
+
+a{ margin:0 5px;
+   padding: 5px 15px;
+   border-radius:3px 3px 0 0;
+   background-color:transparent;
+   text-decoration:none;
+   color:green;
+   box-shadow: -4px -6px 8px 2px rgba(0,0,0,.5), 8px 6px 12px rgba(0,0,0,.5);}
+   
+a:hover{background-color:black;
+color:white;}
+
+h2{text-align:center;}
+footer{text-align:center;}
